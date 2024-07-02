@@ -27,6 +27,11 @@ masterPlay.addEventListener('click', () => {
         masterPlay.classList.remove('fa-play-circle');
         masterPlay.classList.add('fa-pause-circle');
     }
+    else {
+        audioElement.pause();
+        masterPlay.classList.remove('fa-pause-circle');
+        masterPlay.classList.add('fa-play-circle');
+    }
 });
 
 //Listen to Events 
