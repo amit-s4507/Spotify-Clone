@@ -78,7 +78,7 @@ nav ul li{
 }
 
 .songItemContainer{
-    margin-top:65px;
+    margin-top:74px;
 }
 .songItem{
     height: 50px;
@@ -108,5 +108,10 @@ nav ul li{
 
 .songInfo{
     position:absolute;
+    font-family: 'Varela Round', sans-serif;
     left:10vw;
+}
+.songInfo img{
+   opacity: 0;
+   transition: opacity 1s ease-in;
 }
