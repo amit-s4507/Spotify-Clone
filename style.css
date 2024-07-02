@@ -77,6 +77,9 @@ nav ul li{
     cursor: pointer;
 }
 
+.songItemContainer{
+    margin-top:65px;
+}
 .songItem{
     height: 50px;
     display: flex;
@@ -101,4 +104,9 @@ nav ul li{
 
 .timestamp i{
     cursor: pointer;
+}
+
+.songInfo{
+    position:absolute;
+    left:10vw;
 }
