@@ -40,3 +40,5 @@ myProgressBar.addEventListener('timeupdate',()=>{
     console.log('timeupdate');
 
 })
+
+// lets resume 
